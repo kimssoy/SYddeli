@@ -90,6 +90,7 @@
     height:500px;
     background:url("../image/contents2_bg.jpg");
     position:relative;
+    float:left;
 }
 .contents2_wrap{
     width:1180px;

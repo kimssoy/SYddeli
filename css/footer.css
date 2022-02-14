@@ -8,6 +8,7 @@ footer{
     font-family:"Noto Sans KR";
     font-weight:500;
     font-size:15px;
+    float:left;
 }
 .footer_contents{
     width:580px;

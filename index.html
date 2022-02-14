@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>index</title>
+    <script src="script/script.js"></script>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="icon" href="favicon.ico">
+    <!--폰트어썸-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="reset.css" rel="stylesheet">
+    <link href="header.css" rel="stylesheet">
+    <link href="home.css" rel="stylesheet">
+    <link href="footer.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header_wrap">
+            <div class="logo">
+                <a href="index.html"><img src="image/logo.jpg" alt="logo"></a>
+            </div>
+            <div class="search_contents">
+                <input type="search" placeholder="매장을 검색해보세요">
+            </div>
+            <div class="header_contents">
+                <a href="#">고객의 소리</a>
+                <a href="#">고객센터</a>
+            </div>
+        </div>
+    </header>
+    <div class="nav_wrap">
+        <div class="nav">
+            <ul class="gnb">
+                <li><a href="#">디델리</a></li>
+                <li><a href="#">메뉴</a></li>
+                <li><a href="#">매장안내</a></li>
+                <li><a href="#">창업안내</a></li>
+            </ul>
+            <div class="direct">
+                <a href="#"><i class="fas fa-phone-volume"></i> 창업문의 바로가기</a>
+            </div>
+        </div>
+    </div>
+
+    <section id="slide_wrap">
+        <ul class="slider">
+            <li>
+                <img src="image/slide_1.png" alt="slide1">
+            </li>
+            <li>
+                <img src="image/slide_2.png" alt="slide2">
+            </li>
+        </ul>
+        <div class="dot_contents">
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </section>
+
+    <section id="contents1">
+        <div class="contents1_wrap">
+            <img src="image/contents1.png" alt="contents1">
+            <div class="text">
+                <h1>24년간<br>
+                꾸준히 사랑받은<br>
+                브랜드
+                </h1>
+                <p>
+                    디델리는 고객님들의 사랑에 분식의 중심에 서서<br>
+                    최고의 맛, 최고의 서비스, 저렴한 가격으로<br>
+                    보답해드리기 위해 끊임없이 노력하고있습니다.
+                </p>
+                <a href="#">Click &gt;</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contents2">
+        <div class="contents2_wrap">
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <p>D.DELI MENU</p>
+                <h2>
+                    오늘 디델리에서<br>
+                    <span style="color:#a82f11;">뭘 먹을까?</span>
+                </h2>
+                <a href="#">전체메뉴 보기&ensp;&ensp;&ensp;&ensp;&ensp;&emsp;&gt;</a>
+            </div>
+            <img src="image/contents2_1.jpg.png" alt="contents2_1">
+        </div>
+    </section>
+
+    <section id="contents3">
+        <img src="image/contents_3.jpg" alt="contents_3">
+    </section>
+
+    <section id="contents4"></section>
+    <div class="contents4_wrap">
+        <div class="txt">
+            <p>D.deli Vision</p>
+            <h2>
+                &sol;<br>
+                <span style="font-size:40px;">꿈</span>과 <span style="font-size:40px;">열정</span>으로<br>
+                <span style="font-size:40px;">새로운 미래</span>를 준비합니다.<br>
+                &sol;
+            </h2>
+            <a href="#">Click &gt;</a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer_contents">
+            <a href="#"><span style="color:#a82f11";>개인정보처리방침</span></a>
+            <a href="#">이메일무단수집거부</a>
+            <div class="icon">
+                <a href="#"><img src="image/icon1.png" alt="icon1"></a>
+                <a href="#"><img src="image/icon2.png" alt="icon2"></a>
+                <a href="#"><img src="image/icon3.png" alt="icon3"></a>
+            </div>
+        </div>
+        <div class="footer_contents2">
+            <p>주소. 143-912 서울특별시 광진구 능동로37길 14 선진빌딩 601호 (중곡동 648-9)<br>
+            개인정보보호책임자 : 김정수&ensp;&ensp;&ensp;
+            TEL. 02-533-1194&ensp;&ensp;&ensp;
+            FAX. 02-596-6249&ensp;&ensp;&ensp;
+            E-mail. <a href="#">admin@d-deli.co.kr</a>
+            </p>
+        </div>
+        <div class="copy">
+            <p>COPYRIGHT&copy;2016 D-deli All Right Reserved</p>
+        </div>
+    </footer>
+    <div class="blank"><span></span></div>
+
+    <div class="footer_fix">
+        <div class="fix">
+            <div class="call">
+                <h1>창업문의 : 02-533-1194</h1>
+            </div>
+            <div class="btn">
+                <a href="#">브랜드 경쟁력</a>
+                <a href="#">비용 및 절차</a>
+                <a href="#">창업 대출</a>
+                <a href="#">창업 문의</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let slideIndex = 0;
+        function showSlides(){
+            const slides = document.querySelectorAll(".slider>li");
+            const dots = document.querySelectorAll(".dot");
+            slides.forEach(slide => slide.style.display = "none");
+            dots.forEach(dot => dot.classList.remove("active"));
+            slideIndex++;
+            if(slideIndex>slides.length){slideIndex = 1}
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].classList.add("active");
+            setTimeout(showSlides,5000);
+        }
+        showSlides();
+
+    </script>
+</body>
+</html>

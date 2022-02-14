@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+header{
+    width:100%;
+    height:106px;
+    background-color:#fff;
+}
+.header_wrap{
+    max-width:1180px;
+    height:106px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:auto;
+    background-color:#fff;
+}
+.logo{
+    margin-left:20px;
+}
+.search_contents>input{
+    width:300px;
+    height:37px;
+    text-align:center;
+    border:0;
+    border-bottom:2px solid #333;
+    background:url("image/search.jpg") 100% no-repeat;
+    font-family:"Noto Sans KR";
+    font-size:16px;
+    letter-spacing:1px;
+    cursor:pointer;
+    margin-left:50px;
+}
+.search_contents>input::placeholder{
+    font-size:14px;
+}
+/* for ie */
+input::-ms-clear,
+input::-ms-reveal{
+    display:none;
+}
+/* for chrome */
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration {
+    display:none;
+}
+.header_contents{margin-right:30px;}
+.header_contents>a{
+    display:block;
+    float:left;
+    font-size:18px;
+}
+.header_contents>a:nth-child(2){
+    margin-left:22px;
+}
+/*=======================*/
+.nav_wrap{
+    width:100%;
+    height:70px;
+    background-color:#a82f11;
+    display:flex;
+}
+.nav{
+    width:1180px;
+    height:70px;
+    margin:auto;
+    display:inline-flex;
+    position:relative;
+}
+.gnb{
+    display:flex;
+    margin:auto;
+    font-size:24px;
+    color:#fff;
+    line-height:70px;
+}
+.gnb>li>a{
+    display:block;
+}
+.gnb>li:hover{
+    color:#f5bf47;
+    transition:all 0.5s;
+}
+.gnb>li:nth-child(2)>a{
+    margin:0px 50px;
+}
+.gnb>li:nth-child(3)>a{
+    margin-right:50px;
+}
+.direct{
+    position:absolute;
+    right:20px;
+    margin-top:19px;
+}
+.direct>a{
+    display:block;
+    width:182px;
+    height:32px;
+    border:0;
+    border-radius:5px;
+    background-color:#f5bf47;
+    color:#a82f11;
+    font-size:20px;
+    letter-spacing:1.5px;
+    line-height:32px;
+    text-align:center;
+}
+.direct>a:hover{
+    background-color:#a82f11;
+    color:#f5bf47;
+    transition:all 0.5s;
+}
+/*=====================*/

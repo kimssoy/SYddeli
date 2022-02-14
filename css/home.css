@@ -43,20 +43,20 @@
     width:100%;
     height:600px;
     background-color:#fff;
-    float:left;
+    display:flex;
 }
 .contents1_wrap{
     width:1180px;
     height:600px;
-    padding:100px 40px 0 40px;
+    padding:100px 40px 100px 40px;
     margin:auto;
+    display:flex;
+    justify-content:space-between;
 }
 .contents1_wrap>image{
     display:block;
-    float:left;
 }
 .contents1_wrap>.text{
-    float:right;
     letter-spacing:3px;
 }
 .contents1_wrap>.text::after{

@@ -96,6 +96,11 @@
     height:500px;
     margin:auto;
 }
+.contents2_wrap::after{
+    content:"";
+    display:block;
+    clear:both;
+}
 .contents2_wrap>.box{
     width:380px;
     height:500px;
@@ -105,6 +110,11 @@
 .contents2_wrap>.box>i,.contents2_wrap>.box>p{
     font-size:30px;
     margin:104px 0px 50px 0px;
+}
+.contents2_wrap>.box::after{
+    content:"";
+    display:block;
+    clear:both;
 }
 .contents2_wrap>.box>i{
     float:left;
@@ -133,7 +143,7 @@
 }
 .contents2_wrap>img{
     display:block;
-    float:right;
+    float:left;
     margin-top:30px;
 }
 /*==========================*/
@@ -189,6 +199,11 @@
     line-height:60px;
     letter-spacing:3px;
     padding-top:32px;
+}
+.contents4_wrap>.txt::after{
+    content:"";
+    display:block;
+    clear:both;
 }
 .contents4_wrap>.txt>a{
     display:block;

@@ -143,14 +143,14 @@
 }
 .contents2_wrap>img{
     display:block;
-    float:left;
-    margin-top:30px;
+    padding-top:30px;
 }
 /*==========================*/
 #contents3{
     width:100%;
     height:600px;
     background:url("../image/contents3_bg.jpg");
+    background-size:cover;
 }
 #contents3>img{
     display:block;

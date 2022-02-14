@@ -68,11 +68,11 @@
     font-size:40px;
     color:#a82f11;
     font-weight:normal;
-    margin-top:40px;
+    padding-top:40px;
 }
 .contents1_wrap>.text>p{
     font-size:24px;
-    margin:40px 0px 64px 0px;
+    padding:40px 0px 64px 0px;
 
 }
 .contents1_wrap>.text>a{

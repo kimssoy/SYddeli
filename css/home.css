@@ -59,6 +59,11 @@
     float:right;
     letter-spacing:3px;
 }
+.contents1_wrap>.text::after{
+    content:"";
+    display:block;
+    clear:both;
+}
 .contents1_wrap>.text>h1{
     font-size:40px;
     color:#a82f11;
@@ -68,6 +73,7 @@
 .contents1_wrap>.text>p{
     font-size:24px;
     margin:40px 0px 64px 0px;
+
 }
 .contents1_wrap>.text>a{
     display:block;

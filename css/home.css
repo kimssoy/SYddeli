@@ -143,6 +143,7 @@
 }
 .contents2_wrap>img{
     display:block;
+    float:right;
     padding-top:30px;
 }
 /*==========================*/

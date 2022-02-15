@@ -1,5 +1,11 @@
 @charset "utf-8";
 
+@font-face{
+    font-family:Koverwatch;
+    src:url(koverwatch.ttf);
+    src:local(※),url(koverwatch.ttf)
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
 
 *{margin:0; padding:0; box-sizing:border-box;}
@@ -11,7 +17,7 @@ input,textarea,button{
 }
 html{width:1920px; margin:auto;}
 body{
-    font-family:"Koverwatch";
+    font-family:Koverwatch;
     letter-spacing:1.5px;
     color:#333;
     user-select:none;

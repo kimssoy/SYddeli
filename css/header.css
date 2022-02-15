@@ -24,14 +24,14 @@ header{
     border:0;
     border-bottom:2px solid #333;
     background:url("../image/search.jpg") 100% no-repeat;
-    font-family:"Noto Sans KR";
-    font-size:16px;
-    letter-spacing:1px;
+    font-size:18px;
+    letter-spacing:1.7px;
     cursor:pointer;
     margin-left:50px;
 }
 .search_contents>input::placeholder{
-    font-size:14px;
+    font-size:16px;
+    color:#aaaaaa;
 }
 /* for ie */
 input::-ms-clear,
@@ -80,7 +80,7 @@ input::-webkit-search-results-decoration {
 }
 .gnb>li:hover{
     color:#f5bf47;
-    transition:all 0.5s;
+    transition:all 0.3s;
 }
 .gnb>li:nth-child(2)>a{
     margin:0px 50px;
@@ -101,7 +101,7 @@ input::-webkit-search-results-decoration {
     border-radius:5px;
     background-color:#f5bf47;
     color:#a82f11;
-    font-size:17px;
+    font-size:20px;
     letter-spacing:1.5px;
     line-height:32px;
     text-align:center;

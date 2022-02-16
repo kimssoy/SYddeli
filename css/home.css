@@ -8,7 +8,7 @@
     margin:auto;
 }
 .slider{
-    width:1180px;
+    max-width:1180px;
     height:400px;
     margin:auto;
 }
@@ -40,8 +40,9 @@
 
 /*====================*/
 #contents1{
-    width:100%;
+    max-width:1180px;
     height:600px;
+    margin:auto;
     background-color:#fff;
 }
 .contents1_wrap{
@@ -84,12 +85,13 @@
 #contents2{
     width:100%;
     height:500px;
+    margin:auto;
     background:url("../image/contents2_bg.jpg");
     position:relative;
     float:left;
 }
 .contents2_wrap{
-    width:1180px;
+    max-width:1180px;
     height:500px;
     margin:auto;
 }
